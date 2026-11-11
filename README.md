@@ -20,3 +20,4 @@ npx serve .
 ## Déploiement
 
 Pousser sur `main` suffit si GitHub Pages est activé sur ce dépôt (branche `main`, racine `/`).
+
