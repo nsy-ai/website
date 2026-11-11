@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>nsyAI — Agence d'intelligence artificielle</title>
+  <meta name="description" content="nsyAI conçoit et déploie des solutions d'IA sur mesure : agents autonomes, automatisation, RAG et intégration LLM pour transformer votre entreprise.">
+  <meta name="theme-color" content="#0b0d10">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;450;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+</head>
+<body>
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+
+  <header class="site-header" data-header>
+    <div class="container header-inner">
+      <a class="brand" href="/" aria-label="nsyAI, accueil">
+        <svg class="brand-mark" width="28" height="28" viewBox="0 0 28 28" aria-hidden="true">
+          <rect width="28" height="28" rx="7" fill="var(--accent)"/>
+          <path d="M8 19V9l6 6 6-6v10" fill="none" stroke="#0b0d10" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <span class="brand-name" translate="no">nsyAI</span>
+      </a>
+      <nav class="main-nav" aria-label="Navigation principale">
+        <ul>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#methode">Méthode</a></li>
+          <li><a href="#cas">Réalisations</a></li>
+          <li><a href="#a-propos">L'agence</a></li>
+        </ul>
+      </nav>
+      <div class="header-cta">
+        <a class="btn btn-primary btn-sm" href="#contact">Démarrer un projet</a>
+        <button class="nav-toggle" aria-expanded="false" aria-controls="menu-mobile" aria-label="Ouvrir le menu">
+          <span class="nav-toggle-bar" aria-hidden="true"></span>
+          <span class="nav-toggle-bar" aria-hidden="true"></span>
+        </button>
+      </div>
+    </div>
+    <div class="mobile-menu" id="menu-mobile" hidden>
+      <nav aria-label="Navigation mobile">
+        <ul>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#methode">Méthode</a></li>
+          <li><a href="#cas">Réalisations</a></li>
+          <li><a href="#a-propos">L'agence</a></li>
+          <li><a class="btn btn-primary" href="#contact">Démarrer un projet</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenu">
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="pulse-dot" aria-hidden="true"></span>Agence IA · Paris &amp; remote</p>
+          <h1 class="hero-title">L'intelligence artificielle, <em>enfin utile</em> pour votre entreprise.</h1>
+          <p class="hero-sub">Nous concevons des systèmes d'IA qui travaillent vraiment : agents autonomes, automatisation de processus et assistants entraînés sur vos données. Pas de démo tape-à-l'œil — des outils en production.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#contact">Discuter de votre projet</a>
+            <a class="btn btn-ghost" href="#services">Découvrir nos services</a>
+          </div>
+          <dl class="hero-stats" aria-label="Chiffres clés">
+            <div><dt>Projets livrés</dt><dd>40+</dd></div>
+            <div><dt>Temps moyen d'automatisation</dt><dd>−62&nbsp;%</dd></div>
+            <div><dt>Satisfaction client</dt><dd>4,9<span aria-hidden="true">/5</span></dd></div>
+          </dl>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <div class="terminal">
+            <div class="terminal-head">
+              <span class="terminal-dot"></span><span class="terminal-dot"></span><span class="terminal-dot"></span>
+              <span class="terminal-title">nsyai-agent — live</span>
+            </div>
+            <div class="terminal-body" data-terminal></div>
+          </div>
+          <div class="float-card float-card-1">
+            <span class="float-card-icon" aria-hidden="true">✓</span>
+            <div><strong>Rapport hebdo généré</strong><span>12 min au lieu de 6 h</span></div>
+          </div>
+          <div class="float-card float-card-2">
+            <span class="float-card-icon" aria-hidden="true">⚡</span>
+            <div><strong>Workflow automatisé</strong><span>1 400 tâches / mois</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- LOGOS / CONFIANCE -->
+    <section class="trustbar" aria-label="Ils nous font confiance">
+      <div class="container">
+        <p class="trustbar-label">Ils nous font confiance</p>
+        <ul class="trustbar-logos">
+          <li translate="no">NOVATEK</li>
+          <li translate="no">Lumen&amp;Co</li>
+          <li translate="no">ALTIS</li>
+          <li translate="no">Groupe Ravel</li>
+          <li translate="no">Pixelfarm</li>
+          <li translate="no">OTANI</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="section" id="services">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">Nos services</p>
+          <h2>Ce que nous savons faire. Vraiment.</h2>
+          <p class="section-sub">Quatre domaines d'expertise, une même exigence : des systèmes fiables, mesurables et maintenus dans le temps.</p>
+        </header>
+        <div class="services-grid">
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 8V4H8"/><rect x="4" y="8" width="16" height="12" rx="3"/><circle cx="9" cy="14" r="1.2" fill="currentColor" stroke="none"/><circle cx="15" cy="14" r="1.2" fill="currentColor" stroke="none"/></svg>
+            </div>
+            <h3>Agents IA autonomes</h3>
+            <p>Des agents capables d'exécuter des tâches complexes de bout en bout : traitement de demandes, veille, rédaction, orchestration entre vos outils.</p>
+            <ul class="service-tags">
+              <li>Multi-étapes</li>
+              <li>Garde-fous &amp; validation humaine</li>
+            </ul>
+          </article>
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h9M4 12h16M4 17h12"/><path d="M17 5l3 2-3 2"/></svg>
+            </div>
+            <h3>Automatisation de processus</h3>
+            <p>Nous cartographions vos workflows et éliminons les tâches répétitives : facturation, onboarding, support, reporting. Vos équipes se recentrent sur l'essentiel.</p>
+            <ul class="service-tags">
+              <li>Audit complet inclus</li>
+              <li>Intégration à vos outils</li>
+            </ul>
+          </article>
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="6" rx="7" ry="3"/><path d="M5 6v6c0 1.7 3.1 3 7 3s7-1.3 7-3V6"/><path d="M5 12v6c0 1.7 3.1 3 7 3s7-1.3 7-3v-6"/></svg>
+            </div>
+            <h3>IA sur vos données (RAG)</h3>
+            <p>Des assistants qui répondent avec vos documents, vos bases et vos procédures internes — sans divaguer, avec des sources citées à chaque réponse.</p>
+            <ul class="service-tags">
+              <li>100&nbsp;% hébergeable en France</li>
+              <li>Réponses sourcées</li>
+            </ul>
+          </article>
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 6l-5 6 5 6"/><path d="M16 6l5 6-5 6"/><path d="M13 4l-2 16"/></svg>
+            </div>
+            <h3>Intégration LLM &amp; conseil</h3>
+            <p>Choix de modèles, coûts, sécurité, conformité RGPD&nbsp;: nous vous aidons à prendre les bonnes décisions techniques, sans jargon ni dépendance à un fournisseur unique.</p>
+            <ul class="service-tags">
+              <li>Indépendant des providers</li>
+              <li>Formation de vos équipes</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- METHODE -->
+    <section class="section section-alt" id="methode">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">Notre méthode</p>
+          <h2>De l'idée à la production, en quatre étapes.</h2>
+          <p class="section-sub">Pas de tunnel de six mois avant de voir un résultat. Nous livrons tôt, nous mesurons, nous ajustons.</p>
+        </header>
+        <ol class="steps">
+          <li class="step">
+            <span class="step-num" aria-hidden="true">01</span>
+            <h3>Cadrage</h3>
+            <p>Deux semaines pour identifier les cas d'usage à plus fort impact et définir des critères de succès chiffrés.</p>
+          </li>
+          <li class="step">
+            <span class="step-num" aria-hidden="true">02</span>
+            <h3>Prototype</h3>
+            <p>Une première version fonctionnelle sur vos données réelles, testée par vos équipes. En trois semaines.</p>
+          </li>
+          <li class="step">
+            <span class="step-num" aria-hidden="true">03</span>
+            <h3>Production</h3>
+            <p>Déploiement sécurisé, monitoring, garde-fous. Le système est intégré à vos outils et suivi en continu.</p>
+          </li>
+          <li class="step">
+            <span class="step-num" aria-hidden="true">04</span>
+            <h3>Pilotage</h3>
+            <p>Améliorations continues, montée en compétence de vos équipes, et un interlocuteur dédié qui reste joignable.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- CAS -->
+    <section class="section" id="cas">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">Réalisations</p>
+          <h2>Des résultats, pas des promesses.</h2>
+        </header>
+        <div class="cases">
+          <article class="case-card">
+            <p class="case-sector">Industrie · Groupe Ravel</p>
+            <h3>Assistant technique interne</h3>
+            <p>Un RAG indexé sur 40&nbsp;000 pages de documentation technique. Les techniciens terrain obtiennent des réponses sourcées en quelques secondes, même hors-ligne sur le dépôt du soir.</p>
+            <div class="case-metrics">
+              <div><strong>−70&nbsp;%</strong><span>temps de recherche</span></div>
+              <div><strong>96&nbsp;%</strong><span>réponses validées</span></div>
+            </div>
+          </article>
+          <article class="case-card">
+            <p class="case-sector">E-commerce · Pixelfarm</p>
+            <h3>Traitement automatique des retours</h3>
+            <p>Un agent qui lit, classe et répond aux demandes SAV, escalade les cas ambigus et met à jour le CRM. Le service client se concentre sur les cas humains.</p>
+            <div class="case-metrics">
+              <div><strong>1&nbsp;400</strong><span>tâches / mois</span></div>
+              <div><strong>&lt;2&nbsp;h</strong><span>délai de réponse</span></div>
+            </div>
+          </article>
+          <article class="case-card">
+            <p class="case-sector">Conseil · Lumen&amp;Co</p>
+            <h3>Veille &amp; synthèse sectorielle</h3>
+            <p>Chaque lundi, un rapport de veille personnalisé arrive dans la boîte des consultants : sources sélectionnées, résumés, angles d'attaque pour les missions en cours.</p>
+            <div class="case-metrics">
+              <div><strong>12&nbsp;min</strong><span>de lecture au lieu de 6&nbsp;h</span></div>
+              <div><strong>×3</strong><span>sources couvertes</span></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- TEMOIGNAGE -->
+    <section class="quote-band">
+      <div class="container">
+        <blockquote>
+          <p>«&nbsp;Nous avions vu passer beaucoup de prestataires "IA". nsyAI est le premier à nous avoir livré un outil que nos équipes utilisent spontanément, tous les jours.&nbsp;»</p>
+          <footer><cite>Camille Dervaux</cite> — Directrice des opérations, Groupe Ravel</footer>
+        </blockquote>
+      </div>
+    </section>
+
+    <!-- A PROPOS -->
+    <section class="section" id="a-propos">
+      <div class="container about-grid">
+        <div class="about-copy">
+          <p class="eyebrow">L'agence</p>
+          <h2>Une équipe resserrée, des ingénieurs en première ligne.</h2>
+          <p>Chez nsyAI, pas de couches de commercial entre vous et ceux qui construisent. Les personnes qui cadreront votre projet sont celles qui écriront le code. Nous restons volontairement petits : chaque mission est portée par des gens qui la comprennent en profondeur.</p>
+          <p>Nous croyons que l'IA la plus utile est souvent la moins spectaculaire : elle supprime des frictions, rend des minutes chaque jour, fiabilise des décisions. C'est ce que nous mesurons, et rien d'autre.</p>
+          <ul class="about-values">
+            <li><strong>Franchise.</strong> Si l'IA n'est pas la bonne réponse à votre problème, nous vous le dirons.</li>
+            <li><strong>Propriété.</strong> Le code et les modèles vous appartiennent. Aucune dépendance imposée.</li>
+            <li><strong>Sobriété.</strong> Le bon outil, pas le plus tendance.</li>
+          </ul>
+        </div>
+        <aside class="about-panel" aria-label="Informations pratiques">
+          <h3>En pratique</h3>
+          <ul>
+            <li><strong>Basés à Paris</strong><span>interventions partout en France &amp; en remote</span></li>
+            <li><strong>Équipe de 8 personnes</strong><span>ingénieurs ML, backend, produit</span></li>
+            <li><strong>Données hébergées en UE</strong><span>conformité RGPD native</span></li>
+            <li><strong>Premier rendez-vous offert</strong><span>45 min, sans engagement</span></li>
+          </ul>
+          <a class="btn btn-primary btn-full" href="#contact">Réserver un créneau</a>
+        </aside>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section section-dark" id="contact">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow eyebrow-light">Contact</p>
+          <h2>Parlons de ce que l'IA pourrait changer chez vous.</h2>
+          <p class="section-sub">Décrivez votre contexte en quelques lignes. Nous répondons sous 24&nbsp;h ouvrées, avec un point de vue honnête — même si c'est «&nbsp;pas encore prioritaire&nbsp;».</p>
+        </header>
+        <form class="contact-form" action="#" method="post" novalidate>
+          <div class="form-row">
+            <div class="field">
+              <label for="nom">Nom</label>
+              <input id="nom" name="nom" type="text" autocomplete="name" placeholder="Camille Dervaux…" required>
+              <p class="field-error" hidden>Merci d'indiquer votre nom.</p>
+            </div>
+            <div class="field">
+              <label for="email">E-mail professionnel</label>
+              <input id="email" name="email" type="email" autocomplete="email" inputmode="email" spellcheck="false" placeholder="camille@entreprise.fr…" required>
+              <p class="field-error" hidden>Merci d'indiquer une adresse e-mail valide.</p>
+            </div>
+          </div>
+          <div class="field">
+            <label for="sujet">Votre besoin, en quelques mots</label>
+            <textarea id="sujet" name="sujet" rows="5" placeholder="Ex. : nous perdons des heures chaque semaine à traiter des devis entrants manuellement…" required></textarea>
+            <p class="field-error" hidden>Décrivez brièvement votre besoin.</p>
+          </div>
+          <div class="form-footer">
+            <button class="btn btn-accent" type="submit" data-submit-btn>Envoyer le message</button>
+            <p class="form-note">Ou directement : <a href="mailto:bonjour@nsyai.fr">bonjour@nsyai.fr</a></p>
+          </div>
+          <p class="form-success" role="status" hidden>Message envoyé. Nous revenons vers vous très vite&nbsp;!</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a class="brand" href="/" aria-label="nsyAI, retour en haut">
+          <svg class="brand-mark" width="24" height="24" viewBox="0 0 28 28" aria-hidden="true">
+            <rect width="28" height="28" rx="7" fill="var(--accent)"/>
+            <path d="M8 19V9l6 6 6-6v10" fill="none" stroke="#0b0d10" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <span class="brand-name" translate="no">nsyAI</span>
+        </a>
+        <p>Agence d'intelligence artificielle appliquée.<br>Paris, France.</p>
+      </div>
+      <nav class="footer-nav" aria-label="Plan du site">
+        <ul>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#methode">Méthode</a></li>
+          <li><a href="#cas">Réalisations</a></li>
+          <li><a href="#a-propos">L'agence</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="footer-legal">
+        <p>© <span id="annee">2025</span> nsyAI. Tous droits réservés.</p>
+        <ul>
+          <li><a href="mailto:bonjour@nsyai.fr">bonjour@nsyai.fr</a></li>
+          <li><a href="https://www.linkedin.com/" rel="noopener">LinkedIn</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
